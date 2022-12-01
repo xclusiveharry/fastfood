@@ -37,6 +37,35 @@ Route::get("/updateview/{id}",[AdminController::class, "updateview"]);
 
 Route::post("/update/{id}",[AdminController::class, "update"]);
 
+Route::post("/reservation",[AdminController::class, "reservation"]);
+
+Route::get("/viewreservation",[AdminController::class, "viewreservation"]);
+
+Route::get("/viewchef",[AdminController::class, "viewchef"]);
+
+Route::post("/uploadchef",[AdminController::class, "uploadchef"]);
+
+Route::get("/updatechef/{id}",[AdminController::class, "updatechef"]);
+
+Route::post("/updatefoodchef/{id}",[AdminController::class, "updatefoodchef"]);
+
+Route::get("/deletechef/{id}",[AdminController::class, "deletechef"]);
+
+Route::post("/addcart/{id}",[HomeController::class, "addcart"]);
+
+Route::get("/showcart/{id}",[HomeController::class, "showcart"]);
+
+Route::get("/remove/{id}",[HomeController::class, "remove"]);
+
+Route::post("/orderconfirm",[HomeController::class, "orderconfirm"]);
+
+Route::get("/orders",[AdminController::class, "orders"]);
+
+Route::get("/search",[AdminController::class, "search"]);
+
+
+
+
 
 
 Route::middleware([

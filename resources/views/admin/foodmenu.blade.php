@@ -43,7 +43,7 @@
 
             <div style="padding: 10px">
                 
-                <input style = "color: blue;" type = "submit" value = "Save" >
+                <input style = "color: blue;" class = "btn btn-primary" type = "submit" value = "Save" >
 
             </div>
         

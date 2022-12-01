@@ -1,9 +1,10 @@
 
-        <x-app-layout>
+<x-app-layout>
     
-        </x-app-layout>
+</x-app-layout>
 
-        <!DOCTYPE html>
+<!DOCTYPE html>
+
 <html lang="en">
   <head>
     

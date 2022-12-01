@@ -47,7 +47,7 @@
         </li>
 
         <li class="nav-item menu-items">
-          <a class="nav-link" href="pages/tables/basic-table.html">
+          <a class="nav-link" href="{{ url('/viewchef') }}">
             <span class="menu-icon">
               <i class="mdi mdi-table-large"></i>
             </span>
@@ -56,11 +56,20 @@
         </li>
 
         <li class="nav-item menu-items">
-          <a class="nav-link" href="pages/charts/chartjs.html">
+          <a class="nav-link" href="{{ url('/viewreservation') }}">
             <span class="menu-icon">
               <i class="mdi mdi-chart-bar"></i>
             </span>
             <span class="menu-title">Reservations</span>
+          </a>
+        </li>
+
+        <li class="nav-item menu-items">
+          <a class="nav-link" href="{{ url('/orders') }}">
+            <span class="menu-icon">
+              <i class="mdi mdi-chart-bar"></i>
+            </span>
+            <span class="menu-title">Orders</span>
           </a>
         </li>
         
