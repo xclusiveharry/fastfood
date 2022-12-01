@@ -6,6 +6,7 @@
                     <div class="section-heading">
                         <h6>Contact Us</h6>
                         <h2>Here You Can Make A Reservation Or Just walk-in to our cafe</h2>
+                        
                     </div>
                     <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</p>
                     <div class="row">
